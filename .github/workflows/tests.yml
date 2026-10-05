@@ -19,7 +19,7 @@ jobs:
       matrix:
         php-version:
           - "7.1"
-          - "8.4"
+          - "8.5"
     steps:
       -
         name: Checkout
@@ -79,6 +79,7 @@ jobs:
           - "8.2"
           - "8.3"
           - "8.4"
+          - "8.5"
     runs-on: ${{ matrix.os }}
     steps:
       - name: Set code coverage
